@@ -3,9 +3,9 @@ function CreateWhatsappChatWidget(option = {
         autoShow: true,
         backgroundColor: "#0a6114",
         borderRadius: "25",
-        brandImg: "https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+        brandImg: "",
         brandImgData: null,
-        brandName: "WATI",
+        brandName: "PQD",
         brandSubTitle: "Typically replies within a day",
         ctaText: "Start Chat",
         welcomeText: "Hi, there! \nHow can I help you?",
@@ -59,7 +59,7 @@ function CreateWhatsappChatWidget(option = {
         jQuery('#whatsapp_chat_widget').append(`
             <div class='wa-chat-box'>
                 <div class='wa-chat-box-header'>
-                    <img class='wa-chat-box-brand' onError='this.src= "https://cdn.clare.ai/wati/images/WATI_logo_square_2.png";' src='${option.brandSetting.brandImg}'/>
+                    <img class='wa-chat-box-brand' onError='this.src= "";' src='${option.brandSetting.brandImg}'/>
                     <div class='wa-chat-box-brand-text'>
                         <div class='wa-chat-box-brand-name'>${option.brandSetting.brandName}</div>
                         <div class='wa-chat-box-brand-subtitle'>${option.brandSetting.brandSubTitle}</div>
