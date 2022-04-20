@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding: 0;
+    position: absolute;
+    font-family: "Oswald",sans-serif;
+}
+
+input{
+    width: 768px;
+    cursor: pointer;
+}
+
+img{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    height: 130px;
+}
+
+.contenido{
+    position: relative;
+    text-align: center;
+}
+
+.texto{
+  text-align: center;
+  font-size: 45px;
+  display: block;
+  color: #007bff;
+  font-weight: 400;
+}
+
+texto h3{
+    margin: 0;
+    padding: 0;
+}
