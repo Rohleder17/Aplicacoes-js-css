@@ -192,3 +192,7 @@ a.close-chat {
     transform: scale(1);
     opacity: 1
 }
+/*General links color*/
+a {color:#8560a8;text-decoration: none;-webkit-transition: all 0.2s ease;transition: all 0.2s ease; outline:none;}
+a:hover,a:focus {color: #111;text-decoration: none; outline:none;}
+
