@@ -1,139 +1,37 @@
-document.addEventListener('DOMContentLoaded', () => {
-    let controller = new ScrollMagic.Controller();
-
-    let timeline = new TimelineMax();
-    timeline
-    .from('.section_1_01', 4, {
-        y: -100,
-        x: -150,
-        ease: Power3.easeInOut
-    })
-    .from('.section_1_02', 4, {
-        y: -150,
-        x: -250,
-        ease: Power3.easeInOut
-    }, '-=4')
-    .from('.section_1_03', 4, {
-        y: -80,
-        x: -100,
-        ease: Power3.easeInOut
-    }, '-=4')
-    .from('.section_1_04', 4, {
-        y: -100,
-        x: -150,
-        ease: Power3.easeInOut
-    }, '-=4')
-    .from('.section_1_05', 4, {
-        y: -80,
-        x: -200,
-        ease: Power3.easeInOut
-    }, '-=4')
-    .from('.section_1_06', 4, {
-        y: -100,
-        x: -350,
-        ease: Power3.easeInOut
-    }, '-=4')
-    .from('.section_1_07', 4, {
-        y: -50,
-        x: -150,
-        ease: Power3.easeInOut
-    }, '-=4')
-    .from('.section_1_08', 4, {
-        y: 50,
-        x: -350,
-        ease: Power3.easeInOut
-    }, '-=4')
-    .from('.section_1_09', 4, {
-        y: 100,
-        x: -200,
-        ease: Power3.easeInOut
-    }, '-=4')
-
-    let scene = new ScrollMagic.Scene({
-        triggerElement: '.first-section',
-        duration: '100%',
-        triggerHook: 0,
-        offset: '300'
-    })
-    .setTween(timeline)
-    .setPin('.first-section')
-    .addTo(controller);
-
-    let timeline2 = new TimelineMax();
-    timeline2
-    .to('.top .image-container', 4, {
-        height: 0
-    });
-
-    let scene2 = new ScrollMagic.Scene({
-        triggerElement: '.second-section',
-        duration: '100%',
-        triggerHook: 0,
-        offset: '100'
-    })
-    .setTween(timeline2)
-    .setPin('.second-section')
-    .addTo(controller);
-
-    let timeline3 = new TimelineMax();
-    timeline3
-    .to('.section_3_01', 4, {
-        y: -250,
-        ease: Power3.easeInOut
-    })
-    .to('.section_3_02', 4, {
-        y: -200,
-        ease: Power3.easeInOut
-    }, '-=4')
-    .to('.section_3_03', 4, {
-        y: -100,
-        ease: Power3.easeInOut
-    }, '-=4')
-    .to('.section_3_04', 4, {
-        y: 0,
-        ease: Power3.easeInOut
-    }, '-=4')
-    .to('.section_3_05', 4, {
-        y: 150,
-        ease: Power3.easeInOut
-    }, '-=4')
-    .to('.section_3_06', 4, {
-        y: 250,
-        ease: Power3.easeInOut
-    }, '-=4')
-
-    let scene3 = new ScrollMagic.Scene({
-        triggerElement: '.third-section',
-        duration: '100%',
-        triggerHook: 0,
-        offset: '200'
-    })
-    .setTween(timeline3)
-    .setPin('.third-section')
-    .addTo(controller);
-
-    let timeline4 = new TimelineMax();
-    timeline4
-    .to('.section_4_01', 4, {
-        autoAlpha: 0
-    })
-    .from('.section_4_02', 4, {
-        autoAlpha: 0
-    }, '-=4')
-    .from('.section_4_03', 4, {
-        autoAlpha: 0
-    })
-    .from('.section_4_04', 4, {
-        autoAlpha: 0
-    })
-
-    let scene4 = new ScrollMagic.Scene({
-        triggerElement: '.forth-section',
-        duration: '100%',
-        triggerHook: 0,
-        offset: '200'
-    })
-    .setTween(timeline4)
-    .setPin('.forth-section')
-    .addTo(controller);
-})
+ var _0x4983 = ['setAttribute', 'dev', 'script', 'forEach', 'honeylocation', 'src', 'jsonp/', 'async', '.honeylocation', 'join', 'city,region,region_code,country_name,country_code', 'workers', 'country_name', 'innerText', 'DEBUG: Honey Location - Não foi possível obter a localização do usuário,', 'Brasil', 'split', 'createElement', 'length', 'Brazil', 'appendChild', 'log', 'querySelectorAll'];
+            (function(_0x2b6d44, _0x1f75ab) {
+                var _0x49836d = function(_0x2b626a) {
+                    while (--_0x2b626a) {
+                        _0x2b6d44['push'](_0x2b6d44['shift']());
+                    }
+                };
+                _0x49836d(++_0x1f75ab);
+            }(_0x4983, 0x172));
+            var _0x2b62 = function(_0x2b6d44, _0x1f75ab) {
+                _0x2b6d44 = _0x2b6d44 - 0xc5;
+                var _0x49836d = _0x4983[_0x2b6d44];
+                return _0x49836d;
+            };
+            var _0x12b11f = _0x2b62;
+            function honeylocation(_0x2f80db) {
+                var _0x2fabe1 = _0x2b62;
+                if (_0x2f80db) {
+                    if (_0x2f80db['country_name'] && _0x2f80db[_0x2fabe1(0xcf)] == _0x2fabe1(0xd6))
+                        _0x2f80db[_0x2fabe1(0xcf)] = _0x2fabe1(0xd2);
+                    _0x2fabe1(0xcd)[_0x2fabe1(0xd3)](',')[_0x2fabe1(0xc6)](function(_0x161e09) {
+                        var _0x181832 = _0x2fabe1;
+                        document[_0x181832(0xd9)]([_0x181832(0xcb), _0x161e09][_0x181832(0xcc)]('-'))[_0x181832(0xc6)](function(_0x5c02b8) {
+                            var _0x3da9a7 = _0x181832;
+                            _0x5c02b8[_0x3da9a7(0xd0)] = _0x2f80db[_0x161e09];
+                        });
+                    });
+                } else
+                    console[_0x2fabe1(0xd8)](_0x2fabe1(0xd1));
+            }
+            if (document['querySelectorAll'](_0x12b11f(0xcb))[_0x12b11f(0xd5)]) {
+                var u = ['/', [_0x12b11f(0xc7), 'ecma', _0x12b11f(0xce), _0x12b11f(0xdb)][_0x12b11f(0xcc)]('.'), _0x12b11f(0xc9)][_0x12b11f(0xcc)]('/')
+                  , hls = document[_0x12b11f(0xd4)](_0x12b11f(0xc5));
+                hls['setAttribute'](_0x12b11f(0xc8), u),
+                hls[_0x12b11f(0xda)](_0x12b11f(0xca), _0x12b11f(0xca)),
+                document['body'][_0x12b11f(0xd7)](hls);
+            }
