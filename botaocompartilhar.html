@@ -1,0 +1,18 @@
+<a href="javascript:void(0)" onclick="share()">
+	<img width="125" height="25" src="https://bit.ly/compartilhe_whatsapp" alt="">
+</a>
+
+
+<script>
+function share(){
+	if (navigator.share !== undefined) {
+		navigator.share({
+			title: 'O título da sua página',
+			text: 'Um texto de resumo',
+			url: 'https://seusite.com/sua_url',
+		})
+		.then(() => console.log('Successful share'))
+		.catch((error) => console.log('Error sharing', error));
+	}
+}
+</script>
